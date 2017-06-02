@@ -7,5 +7,4 @@ setcookie(base64_encode('random_karakter'), base64_encode($random_karakter), tim
 echo "Contoh: <a href='download.php?".base64_encode("file=nama-file.zip&random=".$random_karakter)."'>nama-file.zip</a>";
 echo "<br/>";
 echo "Contoh: <a href='download.php?".base64_encode("file=nama-file-lainya.zip&random=".$random_karakter)."'>nama-file-lainya.zip</a>";
-exit;
 ?>
